@@ -1,0 +1,60 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Tag = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Logo = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local TextTag = Instance.new("TextLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+
+--Properties:
+
+Tag.Name = "Tag"
+Tag.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Tag.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = Tag
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Size = UDim2.new(0.120499633, 0, 0.362341762, 0)
+
+Logo.Name = "Logo"
+Logo.Parent = Frame
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BackgroundTransparency = 1.000
+Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Logo.BorderSizePixel = 0
+Logo.Position = UDim2.new(-0.0374003164, 0, 0.0626709759, 0)
+Logo.Size = UDim2.new(0.596600533, 0, 0.689204574, 0)
+Logo.Font = Enum.Font.SourceSans
+Logo.Text = " n                                                                 :.\n E%                                                                :\"5\nz  %                                                              :\" `\nK   \":                                                           z   R\n?     %.                                                       :^    J\n \".    ^s                                                     f     :~\n  '+.    #L                                                 z\"    .*\n    '+     %L                                             z\"    .~\n      \":    '%.                                         .#     +\n        \":    ^%.                                     .#`    +\"\n          #:    \"n                                  .+`   .z\"\n            #:    \":                               z`    +\"\n              %:   `*L                           z\"    z\"\n                *:   ^*L                       z*   .+\"\n                  \"s   ^*L                   z#   .*\"\n                    #s   ^%L               z#   .*\"\n                      #s   ^%L           z#   .r\"\n                        #s   ^%.       u#   .r\"\n                          #i   '%.   u#   .@\"\n                            #s   ^%u#   .@\"\n                              #s x#   .*\"\n                               x#`  .@%.\n                             x#`  .d\"  \"%.\n                           xf~  .r\" #s   \"%.\n                     u   x*`  .r\"     #s   \"%.\n                     %Mu*`  x*\"         #m.  \"%zX\"\n                     :R(h x*              \"h..*dN.\n                   u@NM5e#>                 7?dMRMh.\n                 z$@M@$#\"#                 *\"\"*@MM$hL\n               u@@MM8*                          \"*$M@Mh.\n             z$RRM8F\"                             \"N8@M$bL\n            5`RM$#                                  'R88f)R\n            'h.$\"                                     #$x*\""
+Logo.TextColor3 = Color3.fromRGB(0, 0, 0)
+Logo.TextScaled = true
+Logo.TextSize = 5.000
+Logo.TextWrapped = true
+
+UITextSizeConstraint.Parent = Logo
+UITextSizeConstraint.MaxTextSize = 5
+
+TextTag.Name = "TextTag"
+TextTag.Parent = Frame
+TextTag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextTag.BackgroundTransparency = 1.000
+TextTag.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextTag.BorderSizePixel = 0
+TextTag.Position = UDim2.new(0.037, 0,0.628, 0)
+TextTag.Size = UDim2.new(0.522614837, 0, 0.121582925, 0)
+TextTag.Font = Enum.Font.LuckiestGuy
+TextTag.Text = "armored.cc"
+TextTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextTag.TextScaled = true
+TextTag.TextSize = 14.000
+TextTag.TextWrapped = true
+
+UITextSizeConstraint_2.Parent = TextTag
+UITextSizeConstraint_2.MaxTextSize = 14
