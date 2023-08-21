@@ -13,7 +13,7 @@ local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
 --Properties:
 
 Tag.Name = "Tag"
-Tag.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Tag.Parent = game.CoreGui
 Tag.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = Tag
